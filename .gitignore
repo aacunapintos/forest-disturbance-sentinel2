@@ -1,0 +1,9 @@
+﻿# Ignore everything by default
+*
+
+# Allow only public-facing files
+!README.md
+!.gitignore
+!results/
+!results/*.png
+!LICENSE
