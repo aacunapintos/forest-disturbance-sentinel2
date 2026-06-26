@@ -1,9 +1,16 @@
-﻿# Ignore everything by default
-*
+﻿# Ignore data, weights, configs, cache
+data/
+models/
+*.pth
+*.pt
+*.npy
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.env
+.env.*
+*.egg-info/
+dist/
+build/
 
-# Allow only public-facing files
-!README.md
-!.gitignore
-!results/
-!results/*.png
-!LICENSE
+# Allow everything else (README, notebooks, results)
